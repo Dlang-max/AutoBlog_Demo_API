@@ -266,7 +266,8 @@ def write_subheading(section='', outline=''):
     return generated_subheading
 
 def write_section(section='', subheading='', outline=''):
-    """_summary_
+    """Generates and returns a given paragraph section for the blog. section will
+    be one of the following: "first", "second", "third", "fourth", or "concluding".
 
     Args:
         section (str, optional): The section of the blog that the current subheading
